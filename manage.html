@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <script type="text/javascript" src = "jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src = "manage.js"></script>
+    <link href="all.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id = "info">
+      <table id = "course_table">
+      </table>
+      <div class = "simple_div">
+        <p style="text-align:center;">
+          <button class = "simple_btn" id = "btn_save">Save</button>
+          <button class = "simple_btn" id = "btn_auto_req">Auto Request</button>
+          <button class = "simple_btn" id = "btn_stop_req">Stop Request</button>
+          <button class = "simple_btn" id = "btn_test">Dialog</button>
+        </p>
+        <p style="text-align:center;">
+          Requests will fail if you didn't login.<br>
+          [Auto Request] will send POST requests(items checked) every 3 seconds. Response is not handled.
+        </p>
+        <form id = "add_course" class = "simple_div"><p style="text-align:center;">
+          <label>Course</label><input id = "course" name = "course" type  = "text"/>
+          <label>Section</label><input id = "course_section" name = "course_section" type  = "text"/>
+          <input type = "submit" value = "add"/></p>
+        </form>
+        <p style="text-align:center;color:red">Try not to click anything(if some) below. Errors come!</p>
+      </div>
+    <div id = "view_result">
+    </div>
+    <div id = "page_box"></div>
+    </div>
+  </body>
+</html>
+

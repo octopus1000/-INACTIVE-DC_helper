@@ -1,0 +1,27 @@
+body{
+  margin: 0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  display: block;
+}
+ul li {
+  background-color: inherit;
+  padding: 0;
+  margin: 0;
+}
+ul li :hover{
+  background-color: #C8C8C8 ;
+}
+ul li a{
+  padding:10px 0;
+  margin: 0;
+  text-decoration: none;
+  text-align: center;
+  color:#181818;
+  display: block;
+  width:100px;
+  height: 20px;
+}
